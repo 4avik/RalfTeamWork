@@ -9,6 +9,15 @@
 
 body {
     font-family: cursive;
+    background-image: url('sand-beach-as-background_102618-461.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+
+}
+.container{
+    height: 100%;
+    width: auto;
 }
 
 a {
@@ -55,6 +64,7 @@ li {
 .menu {
     display: flex;
     gap: 1em;
+    padding-top: 20px;
     font-size: 18px;
 
 }
@@ -117,7 +127,28 @@ input[type=checkbox] {
 .shoppingbag {
     height: 60px;
     width: 60px;
+}
 
+.funpage{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    max-inline-size: 100%;
+    block-size: auto;
+    aspect-ratio: 2/1;
+    object-fit: cover;
+    /* width: 100%;
+    min-height: 100px;
+    max-width: 1650px;
+    height: auto; */
+    /* height: 930px;
+    width: 90%; */
+}
+
+.kalapilt-m {
+    height: inherit;
+    width: inherit;
+    border-radius: 25px;
 }
 
 /* APPLYING MEDIA QUERIES */
@@ -171,4 +202,13 @@ input[type=checkbox] {
         display: inline-block;
         position: static;
     }
+    .funpage{
+        margin-left: 35px;
+    }
+    .kalapilt-m{
+        height: inherit;
+        width: inherit;
+    }
+
+
 }
