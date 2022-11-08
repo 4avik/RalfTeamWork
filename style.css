@@ -148,6 +148,7 @@ input[type=checkbox] {
 .fishpic-m {
     height: inherit;
     width: inherit;
+    margin-top: 40px;
     border-radius: 25px;
 }
 
@@ -156,7 +157,49 @@ input[type=checkbox] {
     width: 100%;
     filter: drop-shadow(5px 5px 14px rgba(0, 0, 0, 0.38));
 }
-
+.section2{
+    height: 45%;
+    width: auto;
+}
+/* card 1 */
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    transform: translate(0%, -170%);
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    /* transform: translate(-120%, -180%); */
+    background-color: white;
+    /* display: grid;
+    place-items: center;
+    height: 100%; */
+  }
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
 /* APPLYING MEDIA QUERIES */
 @media (max-width: 768px) {
     .symbol {
