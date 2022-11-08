@@ -9,7 +9,7 @@
 
 body {
     font-family: cursive;
-    background-image: url('sand-beach-as-background_102618-461.jpg');
+    background-image: url('/images/sand.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
@@ -145,10 +145,16 @@ input[type=checkbox] {
     width: 90%; */
 }
 
-.kalapilt-m {
+.fishpic-m {
     height: inherit;
     width: inherit;
     border-radius: 25px;
+}
+
+.waterpic{
+    height: auto;
+    width: 100%;
+    filter: drop-shadow(5px 5px 14px rgba(0, 0, 0, 0.38));
 }
 
 /* APPLYING MEDIA QUERIES */
